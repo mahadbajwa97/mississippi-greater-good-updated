@@ -78,7 +78,7 @@ export function MobileMenu({ currentPath = "/" }: MobileMenuProps) {
                 className="block w-full mt-6 py-3 px-4 text-center bg-[#f46a25] text-white text-sm font-bold rounded-xl hover:bg-[#e55a1f] transition-colors"
                 onClick={toggleMenu}
               >
-                Donate Now
+                Tax Credits
               </Link>
             </nav>
           </div>

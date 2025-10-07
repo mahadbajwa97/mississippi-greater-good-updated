@@ -21,94 +21,22 @@ export default function TaxCreditsPage() {
               </div>
             </div>
 
-            {/* Individual Tax Credits */}
-            <h2 className="text-[#181311] text-lg sm:text-xl lg:text-[22px] font-bold leading-tight tracking-[-0.015em] px-2 sm:px-4 pb-3 pt-5">
-              Individual Tax Credits
-            </h2>
-
+            {/* MS DOR Link */}
             <div className="p-2 sm:p-4">
-              <div className="border-t border-t-[#e6dfdb] py-4 sm:py-5">
-                <p className="text-[#8a6e60] text-sm font-normal leading-normal mb-2">
-                  Qualified Charitable Organization (QCO) Credit
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                <p className="text-[#181311] text-sm sm:text-base font-normal leading-normal mb-3">
+                  For detailed information about Mississippi's tax credit programs, eligible organizations, and how to participate, visit the official Mississippi Department of Revenue website.
                 </p>
-                <p className="text-[#181311] text-sm font-normal leading-normal">
-                  Redirect up to 50% of your state income tax liability to eligible charitable organizations.
-                </p>
+                <a 
+                  href="https://www.dor.ms.gov/charitable-contribution-credits" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-4 py-2 bg-[#f46a25] text-white text-sm font-bold rounded-lg hover:bg-[#e55a1f] transition-colors"
+                >
+                  Visit MS Department of Revenue
+                </a>
               </div>
             </div>
-
-            <div className="p-2 sm:p-4">
-              <div className="border-t border-t-[#e6dfdb] py-4 sm:py-5">
-                <p className="text-[#8a6e60] text-sm font-normal leading-normal mb-2">
-                  Qualified Foster Care Charitable Organization (QFCCO) Credit
-                </p>
-                <p className="text-[#181311] text-sm font-normal leading-normal">
-                  Redirect up to 50% of your state income tax liability to organizations supporting foster care.
-                </p>
-              </div>
-            </div>
-
-            <div className="p-2 sm:p-4">
-              <div className="border-t border-t-[#e6dfdb] py-4 sm:py-5">
-                <p className="text-[#8a6e60] text-sm font-normal leading-normal mb-2">
-                  Educational Tax Home Organization (ETHO) Credit
-                </p>
-                <p className="text-[#181311] text-sm font-normal leading-normal">
-                  Redirect up to 50% of your state income tax liability to organizations providing educational support
-                  at home.
-                </p>
-              </div>
-            </div>
-
-            {/* Business Tax Credits */}
-            <h2 className="text-[#181311] text-lg sm:text-xl lg:text-[22px] font-bold leading-tight tracking-[-0.015em] px-2 sm:px-4 pb-3 pt-5">
-              Business Tax Credits
-            </h2>
-
-            <div className="p-2 sm:p-4">
-              <div className="border-t border-t-[#e6dfdb] py-4 sm:py-5">
-                <p className="text-[#8a6e60] text-sm font-normal leading-normal mb-2">Economic Opportunity (ECO) Credit</p>
-                <p className="text-[#181311] text-sm font-normal leading-normal">
-                  Redirect up to 50% of your state corporate tax liability to organizations fostering economic
-                  opportunities.
-                </p>
-              </div>
-            </div>
-
-            <div className="p-2 sm:p-4">
-              <div className="border-t border-t-[#e6dfdb] py-4 sm:py-5">
-                <p className="text-[#8a6e60] text-sm font-normal leading-normal mb-2">
-                  Private Rehabilitation Charitable Organization (PRCO) Credit
-                </p>
-                <p className="text-[#181311] text-sm font-normal leading-normal">
-                  Redirect up to 50% of your state corporate tax liability to organizations involved in private
-                  rehabilitation.
-                </p>
-              </div>
-            </div>
-
-            <div className="p-2 sm:p-4">
-              <div className="border-t border-t-[#e6dfdb] py-4 sm:py-5">
-                <p className="text-[#8a6e60] text-sm font-normal leading-normal mb-2">
-                  Educational Support Charitable Organization (ESCO) Credit
-                </p>
-                <p className="text-[#181311] text-sm font-normal leading-normal">
-                  Redirect up to 50% of your state corporate tax liability to organizations providing educational
-                  support.
-                </p>
-              </div>
-            </div>
-
-            {/* Eligible Organizations */}
-            <h2 className="text-[#181311] text-lg sm:text-xl lg:text-[22px] font-bold leading-tight tracking-[-0.015em] px-2 sm:px-4 pb-3 pt-5">
-              Eligible Organizations
-            </h2>
-            <p className="text-[#181311] text-sm sm:text-base font-normal leading-normal pb-3 pt-1 px-2 sm:px-4">
-              Each tax credit program supports a specific category of nonprofits. You can view a list of eligible
-              organizations under each program to make informed decisions about where to redirect your tax dollars.
-              These organizations are vetted and approved by the state, ensuring your contributions support legitimate
-              and impactful causes.
-            </p>
           </div>
         </div>
       </div>

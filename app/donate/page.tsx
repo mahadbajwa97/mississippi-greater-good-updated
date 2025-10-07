@@ -77,8 +77,8 @@ export default function DonatePage() {
                     <option value="camp-kamassa">Camp Kamassa</option>
                     <option value="hope-village">Hope Village for Children</option>
                     <option value="pregnancy-choices">Center for Pregnancy Choices of Meridian</option>
-                    <option value="boys-girls-club">Boys & Girls Clubs of East Mississippi</option>
-                    <option value="ms-police-sheriffs">Mississippi Center for Police & Sheriffs</option>
+                    <option value="first-place-youth">First Place for Youth</option>
+                    <option value="hillcrest">Hillcrest Christian School</option>
                   </select>
                 </label>
               </div>

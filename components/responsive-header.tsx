@@ -54,7 +54,7 @@ export function ResponsiveHeader({ currentPath = "/" }: ResponsiveHeaderProps) {
           rel="noopener noreferrer"
           className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#f46a25] text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-[#e55a1f] transition-colors"
         >
-          <span className="truncate">Donate Now</span>
+          <span className="truncate">Tax Credits</span>
         </Link>
       </div>
 

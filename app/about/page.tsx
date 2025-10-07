@@ -75,6 +75,35 @@ export default function AboutPage() {
             </p>
 
             <h2 className="text-[#181311] text-lg sm:text-xl lg:text-[22px] font-bold leading-tight tracking-[-0.015em] px-2 sm:px-4 pb-3 pt-5">
+              Our Team
+            </h2>
+            
+            {/* Team Member Photos and Bios */}
+            <div className="grid gap-6 md:grid-cols-2 px-2 sm:px-4 py-4">
+              {/* Boss Photo */}
+              <div className="flex flex-col items-center text-center">
+                <img 
+                  src="/headshot for GG.JPG" 
+                  alt="Team Member" 
+                  className="w-32 h-32 rounded-full object-cover mb-4"
+                />
+                <h3 className="text-lg font-bold text-[#181311] mb-2">Team Leader</h3>
+                <p className="text-sm text-gray-600">Bio coming soon</p>
+              </div>
+              
+              {/* Kalli Cox Photo */}
+              <div className="flex flex-col items-center text-center">
+                <img 
+                  src="/kalli cox pic for website.JPEG" 
+                  alt="Kalli Cox" 
+                  className="w-32 h-32 rounded-full object-cover mb-4"
+                />
+                <h3 className="text-lg font-bold text-[#181311] mb-2">Kalli Cox</h3>
+                <p className="text-sm text-gray-600">Bio coming soon</p>
+              </div>
+            </div>
+
+            <h2 className="text-[#181311] text-lg sm:text-xl lg:text-[22px] font-bold leading-tight tracking-[-0.015em] px-2 sm:px-4 pb-3 pt-5">
               Contact Information
             </h2>
             <div className="text-[#181311] text-sm sm:text-base font-normal leading-normal pb-3 pt-1 px-2 sm:px-4">

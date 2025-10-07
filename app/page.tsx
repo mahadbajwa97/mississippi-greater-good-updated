@@ -138,24 +138,6 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-auto grid max-w-6xl items-center gap-6 py-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-              <Card className="flex flex-col h-full">
-                <CardHeader className="text-center">
-                  <Image
-                    alt="Boys and Girls Club Logo"
-                    className="mx-auto mb-4 rounded-lg"
-                    height="100"
-                    src="/images/boys-girls-club-logo.jpg"
-                    width="100"
-                  />
-                  <CardTitle>Boys and Girls Club</CardTitle>
-                  <Badge variant="secondary">Youth Development</Badge>
-                </CardHeader>
-                <CardContent className="flex-1">
-                  <CardDescription className="text-center">
-                    Providing safe spaces and programs for young people to learn, grow, and develop into productive citizens.
-                  </CardDescription>
-                </CardContent>
-              </Card>
 
               <Card className="flex flex-col h-full">
                 <CardHeader className="text-center">
@@ -198,18 +180,18 @@ export default function Home() {
               <Card className="flex flex-col h-full">
                 <CardHeader className="text-center">
                   <Image
-                    alt="MS Police and Sheriffs Logo"
+                    alt="First Place for Youth Logo"
                     className="mx-auto mb-4 rounded-lg"
                     height="100"
-                    src="/images/ms-police-sheriffs-correct.jpg"
+                    src="/FPfY_logo_.svg"
                     width="100"
                   />
-                  <CardTitle>MS Police & Sheriffs Association</CardTitle>
-                  <Badge variant="secondary">Public Safety</Badge>
+                  <CardTitle>First Place for Youth</CardTitle>
+                  <Badge variant="secondary">Youth Development</Badge>
                 </CardHeader>
                 <CardContent className="flex-1">
                   <CardDescription className="text-center">
-                    Supporting law enforcement officers and promoting public safety throughout Mississippi communities.
+                    Empowering young people to build successful futures through comprehensive support and mentorship programs.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -239,7 +221,7 @@ export default function Home() {
                     alt="Providence Christian Academy Logo"
                     className="mx-auto mb-4 rounded-lg"
                     height="100"
-                    src="/providence-christian-academy-logo.jpg"
+                    src="/PCA_logo.avif"
                     width="100"
                   />
                   <CardTitle>Providence Christian Academy</CardTitle>
@@ -248,6 +230,25 @@ export default function Home() {
                 <CardContent className="flex-1">
                   <CardDescription className="text-center">
                     Providing quality Christian education and character development for students in Mississippi.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+
+              <Card className="flex flex-col h-full">
+                <CardHeader className="text-center">
+                  <Image
+                    alt="Hillcrest Christian School Logo"
+                    className="mx-auto mb-4 rounded-lg"
+                    height="100"
+                    src="/Hillcrest logo.jpg"
+                    width="100"
+                  />
+                  <CardTitle>Hillcrest Christian School</CardTitle>
+                  <Badge variant="secondary">Education</Badge>
+                </CardHeader>
+                <CardContent className="flex-1">
+                  <CardDescription className="text-center">
+                    Committed to providing excellent Christian education and nurturing students' spiritual and academic growth.
                   </CardDescription>
                 </CardContent>
               </Card>
