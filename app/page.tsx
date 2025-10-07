@@ -166,7 +166,7 @@ export default function Home() {
                     height="100"
                     src="/images/camp-kamassa-correct.jpg"
                     width="100"
-                  />
+                  />   
                   <CardTitle>Camp Kamassa</CardTitle>
                   <Badge variant="secondary">Youth Programs</Badge>
                 </CardHeader>
